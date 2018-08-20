@@ -1,0 +1,12 @@
+[package]
+name = "i18nrs"
+version = "0.1.0"
+authors = ["Jora <developers@jora.com>"]
+
+[lib]
+crate-type = ["dylib"]
+path = "i18nrs.rs"
+
+[dependencies]
+libc = "0.2.2"
+hoedown = "<4"

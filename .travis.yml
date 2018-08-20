@@ -1,0 +1,3 @@
+language: rust
+before_install: rvm install 2.1.5 && gem install bundler && bundle install
+script: rake compile && bundle exec ruby -Itest test/test_*.rb && rake build && gem install pkg/* && ruby -ri18nrs -e 'I18nRs.to_html("lol **important**")'

@@ -1,6 +1,0 @@
-[package]
-name = "i18n-rs"
-version = "0.1.0"
-authors = ["Kirill Lastovirya <kirill.lastovirya@jobseeker.com.au>", "Son <leson.phung@gmail.com>"]
-
-[dependencies]
